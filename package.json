@@ -1,0 +1,25 @@
+{
+  "name": "learning-nervos",
+  "description": "learning nervos website",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve ./public -p 3000",
+    "clean": "del-cli \"public/**/*\" \".cache/**/*\""
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.7.1",
+    "@wapps/gatsby-plugin-material-ui": "^1.1.0",
+    "del-cli": "^1.1.0",
+    "gatsby": "^2.0.75",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com"
+  }
+}
