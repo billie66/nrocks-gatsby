@@ -1,10 +1,11 @@
+const settings = require('./settings')
 module.exports = {
   plugins: [
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `/Users/peter/ncourse`,
+        path: `${settings.docPath}`,
         ignore: [`**/\.*`]
       }
     },
